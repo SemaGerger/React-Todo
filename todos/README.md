@@ -68,3 +68,14 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## My Note
+*** Download: I downloaded the following ***
+    a. "npx create-react-app todos".
+
+1. First, I made a todo-only component called "MakeTodo.js",
+2. Next, I used reducer in Todo "MakeTodoWithReducer.js",
+3. Finally, I opened a separate js called "useReducer.js" and "MakeTodoWithSapareteReducer.js",
+    I wrote the following to reducers:
+     a. The process of sending the "SET_TODO" todo input value,
+     b. There is an "ADD_TODO" add todo operation.
