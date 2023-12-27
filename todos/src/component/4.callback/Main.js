@@ -27,6 +27,7 @@ const Main = () => {
       })
     }, [])
 
+   
   return (
     <div>
     <h2>4. With useReducer & useCallback</h2>

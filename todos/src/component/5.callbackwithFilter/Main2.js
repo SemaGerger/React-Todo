@@ -1,8 +1,9 @@
 import React, { useCallback, useReducer } from 'react';
 
 import todoReducer from '../reducers/todoReducer';
-import AddTodo from '../todoWithMemoization/AddTodo';
-import Todos from '../todoWithMemoization/Todos';
+import AddTodo from '../4.callback/AddTodo';
+import Todos from '../4.callback/Todos';
+
 
 const Main2 = () => {
 
@@ -41,12 +42,13 @@ const Main2 = () => {
 
 
   return (
-   <div>
+   <div><br/><hr/>
+    <h2>5. With filtered</h2>
        <AddTodo submitHandle={submitHandle}
                 inputChange={inputChange}
                 todo={state.todo}
        />
-      <br/> <hr/> <br/>
+      <hr/>
         <input   type='text'
                 value={state.search}
                 placeholder='Todo ara'
