@@ -45,7 +45,7 @@ const MakeTodoWithReducer = () => {
  
   return (
     <div>
-       <h2>Todo With Reducer </h2>
+       <h2>2. Todo With useReducer </h2>
          <form onSubmit={submitHandle}>
             <input
                 type='text'

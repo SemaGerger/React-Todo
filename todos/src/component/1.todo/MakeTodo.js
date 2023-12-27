@@ -20,7 +20,7 @@ const MakeTodo = () => {
 
     return (
     <div>
-        <h2>Todo</h2>
+        <h2>1. Todo</h2>
         <form onSubmit={submitHandle}>
             <input
                 onChange={inputchange}

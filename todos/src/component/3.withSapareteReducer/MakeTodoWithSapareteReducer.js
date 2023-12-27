@@ -1,5 +1,5 @@
 import React, { useReducer } from 'react';
-import todoReducer from '../3.withSapareteReducer/todoReducer'
+import todoReducer from '../reducers/todoReducer';
 
 
 const MakeTodoWithSapareteReducer = () => {
@@ -25,7 +25,7 @@ const MakeTodoWithSapareteReducer = () => {
 
  
   return (
-    <div> <h2>Todo With Saparete Reducer</h2>
+    <div> <h2>3. Todo With Saparete useReducer</h2>
          <form onSubmit={submitHandle}>
             <input
                 type='text'
