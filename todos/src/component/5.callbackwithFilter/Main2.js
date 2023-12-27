@@ -1,8 +1,8 @@
 import React, { useCallback, useReducer } from 'react';
 
 import todoReducer from '../reducers/todoReducer';
-import AddTodo from '../4.callback/AddTodo';
-import Todos from '../4.callback/Todos';
+import AddTodo2 from './AddTodo2';
+import Todos2 from './Todos2';
 
 
 const Main2 = () => {
@@ -44,7 +44,7 @@ const Main2 = () => {
   return (
    <div><br/><hr/>
     <h2>5. With filtered</h2>
-       <AddTodo submitHandle={submitHandle}
+       <AddTodo2 submitHandle={submitHandle}
                 inputChange={inputChange}
                 todo={state.todo}
        />
@@ -55,7 +55,7 @@ const Main2 = () => {
                 onChange={searchHandle}
                 
        />
-       <Todos   todos={filteredTodos} />
+       <Todos2   todos={filteredTodos} />
       
     </div>
   );
